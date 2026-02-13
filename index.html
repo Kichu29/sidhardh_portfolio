@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhardh | Creative Developer & Designer</title>
+    <meta name="description"
+        content="Portfolio of Sidhardh - Web Developer, UI/UX Designer, Video Editor, and AI/ML Enthusiast.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Scroll Progress -->
+    <div id="progress-bar"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Sidhardh<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1 class="glitch" data-text="Sidhardh">Sidhardh</h1>
+                <h2>I'm a <span class="typed-text"></span></h2>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-img" data-tilt>
+                <div class="img-glow"></div>
+                <!-- Placeholder for profile image -->
+                <img src="assets/images/profile.png" alt="Profile"
+                    onerror="this.src='https://via.placeholder.com/400x400/38bdf8/111827?text=Profile'">
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-img" data-aos="fade-right">
+                    <img src="https://via.placeholder.com/500x600/1e293b/94a3b8?text=About+Image" alt="About Me">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Futuristic Coder & Designer</h3>
+                    <p>I am a passionate creative developer who bridges the gap between design and technology. My work
+                        focuses on creating immersive digital experiences that are not only functional but visually
+                        stunning.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="50">0</h3><span>+</span>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="10">0</h3><span>+</span>
+                            <p>Tech Stack</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="3">0</h3><span>+</span>
+                            <p>Years Exp</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-column" data-aos="fade-right">
+                    <h3>Technical Proficiency</h3>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>HTML/CSS</p>
+                            <p>95%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>JavaScript</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>React JS</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="react"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Node JS</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="node"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Python</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-column circular-skills" data-aos="fade-left">
+                    <h3>Creative Skills</h3>
+                    <div class="circle-container">
+                        <div class="circle-box">
+                            <div class="circle" data-percent="90">
+                                <div class="inner-text">90%</div>
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70" class="progress" style="--percent: 90"></circle>
+                                </svg>
+                            </div>
+                            <h4>UI/UX</h4>
+                        </div>
+                        <div class="circle-box">
+                            <div class="circle" data-percent="85">
+                                <div class="inner-text">85%</div>
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70" class="progress" style="--percent: 85"></circle>
+                                </svg>
+                            </div>
+                            <h4>Video Editing</h4>
+                        </div>
+                        <div class="circle-box">
+                            <div class="circle" data-percent="80">
+                                <div class="inner-text">80%</div>
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70" class="progress" style="--percent: 80"></circle>
+                                </svg>
+                            </div>
+                            <h4>Graphic Design</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-grid" data-aos="zoom-in">
+                <!-- Add icons dynamically or static -->
+                <div class="tech-item" title="HTML5"><i class="fab fa-html5"></i></div>
+                <div class="tech-item" title="CSS3"><i class="fab fa-css3-alt"></i></div>
+                <div class="tech-item" title="JavaScript"><i class="fab fa-js"></i></div>
+                <div class="tech-item" title="React"><i class="fab fa-react"></i></div>
+                <div class="tech-item" title="Node.js"><i class="fab fa-node"></i></div>
+                <div class="tech-item" title="MongoDB"><i class="fas fa-database"></i></div>
+                <!-- Using FontAwesome database icon -->
+                <div class="tech-item" title="Python"><i class="fab fa-python"></i></div>
+                <div class="tech-item" title="Photoshop"><i class="fas fa-image"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Recent <span>Projects</span></h2>
+
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="editing">Editing</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250/1e293b/94a3b8?text=Project+1" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="tech-stack">React • Node • MongoDB</p>
+                        <p>A full-stack e-commerce solution with payment gateway.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="design" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250/1e293b/94a3b8?text=Project+2" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard UI Kit</h3>
+                        <p class="tech-stack">Figma • UI/UX</p>
+                        <p>Modern dark-themed dashboard design for SaaS.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250/1e293b/94a3b8?text=Project+3" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-link"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Image Generator</h3>
+                        <p class="tech-stack">Python • OpenCV • ML</p>
+                        <p>Generative AI model for creating abstract art.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="editing" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250/1e293b/94a3b8?text=Project+4" alt="Project 4">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cinematic Showreel</h3>
+                        <p class="tech-stack">Premiere Pro • After Effects</p>
+                        <p>A compilation of my best video edits and vfx.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="featured-project" data-aos="fade-right">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Work</span></h2>
+            <div class="featured-wrapper">
+                <div class="featured-content">
+                    <h3>Smart Home App</h3>
+                    <p class="problem"><strong>Problem:</strong> Fragmented control systems for IoT devices.</p>
+                    <p class="solution"><strong>Solution:</strong> Unified interface with AI-driven automation.</p>
+                    <div class="featured-tech">
+                        <span>Flutter</span> <span>Firebase</span> <span>IoT</span>
+                    </div>
+                    <ul class="featured-features">
+                        <li><i class="fas fa-check"></i> Voice Control</li>
+                        <li><i class="fas fa-check"></i> Real-time Analytics</li>
+                        <li><i class="fas fa-check"></i> Remote Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Case Study</a>
+                </div>
+                <div class="featured-media">
+                    <img src="https://via.placeholder.com/600x400/1e293b/94a3b8?text=Featured+Project"
+                        alt="Featured App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card" data-tilt data-aos="zoom-in">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Building fast, responsive, and SEO-friendly websites using modern technologies.</p>
+                </div>
+                <div class="service-card" data-tilt data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and visually appealing user interfaces for web and mobile.</p>
+                </div>
+                <div class="service-card" data-tilt data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-video"></i></div>
+                    <h3>Video Editing</h3>
+                    <p>Creating professional promotional videos, vlogs, and cinematic edits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My <span>Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <h2>2020</h2>
+                        <p>Started Coding. Created my first Hello World program.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="content">
+                        <h2>2021</h2>
+                        <p>Built first website using HTML & CSS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <h2>2022</h2>
+                        <p>Started Freelancing and working on real-world projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="content">
+                        <h2>2023</h2>
+                        <p>Entered University for Computer Science.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <h2>Present</h2>
+                        <p>Specializing in AI/ML and Advanced Web Development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-content">
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React</span> <span>Node.js</span>
+            <span>MongoDB</span> <span>Figma</span> <span>Git</span> <span>Photoshop</span> <span>Python</span>
+            <!-- Duplicate for infinite scroll effects -->
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React</span> <span>Node.js</span>
+            <span>MongoDB</span> <span>Figma</span> <span>Git</span> <span>Photoshop</span> <span>Python</span>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Client <span>Feedback</span></h2>
+
+            <div class="swiper testimonial-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/e2e8f0/111827?text=User" alt="Client">
+                            <p>"Amazing work! The design is top-notch and the performance is incredible."</p>
+                            <h4>John Doe</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/e2e8f0/111827?text=User" alt="Client">
+                            <p>"A true professional. Delivered the project on time and exceeded expectations."</p>
+                            <h4>Jane Smith</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://via.placeholder.com/80/e2e8f0/111827?text=User" alt="Client">
+                            <p>"Highly recommended for anyone looking for a modern web solution."</p>
+                            <h4>Mike Johnson</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Github Stats (Placeholder) -->
+    <section class="github-stats" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Github <span>Stats</span></h2>
+            <div class="stats-grid">
+                <div class="stat-card" data-tilt>
+                    <h3>Contributions</h3>
+                    <p>1,250</p>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <h3>Repositories</h3>
+                    <p>45</p>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <h3>Streak</h3>
+                    <p>125 Days</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" name="name" required>
+                            <label>Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" required>
+                            <label>Your Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" rows="5" required></textarea>
+                            <label>Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Sidhardh<span>.</span></div>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p>&copy; 2026 Sidhardh. All Rights Reserved.</p>
+            </div>
+
+            <!-- Back to Top -->
+            <a href="#hero" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Local Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/filter.js"></script>
+
+</body>
+
+</html>
